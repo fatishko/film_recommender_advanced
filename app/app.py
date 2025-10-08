@@ -6,7 +6,7 @@ from pydantic import BaseModel, Field, conint, confloat
 from typing import Dict
 
 # 🎯 Modeli yükləyirik
-with open("model.pkl", "rb") as f:
+with open("models\model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # 🎬 Bütün janrlar (modeldə istifadə olunan one-hot encoded feature-lər)
