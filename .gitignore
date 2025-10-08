@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.envrc
+*.env
+
+# Jupyter və Colab faylları
+.ipynb_checkpoints/
+
+# Logs və tmp faylları
+*.log
+*.tmp
+
+# OS faylları
+.DS_Store
+Thumbs.db
+
+# Gradio və FastAPI buildlər
+build/
+dist/
+*.egg-info/
