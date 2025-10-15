@@ -2,3 +2,6 @@ gradio
 pandas
 catboost
 pydantic
+numpy
+gunicorn
+uvicorn
