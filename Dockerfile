@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 7860
 
 # Proqramı işə sal
-CMD ["python", "C:\Users\Fatima\Desktop\model-deploy\app\app.py"]
+CMD ["python", "app.py"]
