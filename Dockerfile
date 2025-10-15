@@ -2,7 +2,7 @@
 FROM python:3.10
 
 # İş mühiti (container içində)
-WORKDIR /app
+WORKDIR /.
 
 # Lazım olan faylları əlavə edirik
 COPY requirements.txt .
@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 7860
 
 # Proqramı işə sal
-CMD ["python", "app.py"]
+CMD ["python", "app/app.py"]
